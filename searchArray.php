@@ -2,7 +2,7 @@
 
    $data = ["Apple" , "Mango" , "Banana"  , 20 , "Orange"];
 
-   if (($key = array_search("Mango", $data)) !== false) {
+   if (($key = array_search("Mango", $data))) {
       echo "Successfully Found: " . $data[$key];
   } else {
       echo "Not Found";
